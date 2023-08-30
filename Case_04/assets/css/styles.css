@@ -1,0 +1,32 @@
+
+div{
+    width: 20px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 5px solid lightskyblue;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    animation-name: water-drops;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes water-drops {
+    from{
+        width: 20px;
+        aspect-ratio: 1/1;
+    }
+
+    to{
+        width: 200px;
+        opacity: 0;
+    }
+
+}
+
